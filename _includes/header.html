@@ -13,15 +13,15 @@
 
         <ul>
             {% if site.github_username %}
-            <li><a class="fa fa-2x fa-github" target="_blank" href="https://github.com/{{ site.github_username }}"><span class="description">GitHub</span></a></li>
+            <li><a class="fa fa-2x fa-github" title="Github" target="_blank" href="https://github.com/{{ site.github_username }}"><span class="description">GitHub</span></a></li>
             {% endif %}
 
             {% if site.linkedin_username %}
-            <li><a class="fa fa-2x fa-linkedin" target="_blank" href="https://linkedin.com/in/{{ site.linkedin_username }}"><span class="description">LinkedIn</span></a></li>
+            <li><a class="fa fa-2x fa-linkedin" title="Linkedin" target="_blank" href="https://linkedin.com/in/{{ site.linkedin_username }}"><span class="description">LinkedIn</span></a></li>
             {% endif %}
 
             {% if site.resume_gdrive_url %}
-            <li><a class="fa fa-2x fa-file-text" target="_blank" href="{{ site.resume_gdrive_url }}"><span class="description">Resume</span></a></li>
+            <li><a class="fa fa-2x fa-file-text" title="Detailed Resume" target="_blank" href="{{ site.resume_gdrive_url }}"><span class="description">Resume</span></a></li>
             {% endif %}
 
             {% if site.instagram_username %}
@@ -37,7 +37,7 @@
             {% endif %}
 
             {% if site.email %}
-            <li><a class="fa fa-2x fa-envelope" target="_blank" href="mailto:{{ site.email }}"><span class="description">Email</span></a></li>
+            <li><a class="fa fa-2x fa-envelope" title="Email" target="_blank" href="mailto:{{ site.email }}"><span class="description">Email</span></a></li>
             {% endif %}
 
             {% if site.public_key_url %}
