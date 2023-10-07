@@ -21,9 +21,13 @@
             {% endif %}
 
             {% if site.resume_gdrive_url %}
-            <li><a class="fa fa-2x fa-file-text" title="Detailed Resume" target="_blank" href="{{ site.resume_gdrive_url }}"><span class="description">Resume</span></a></li>
+            <li><a class="fa fa-2x fa-file-text" title="Detailed Resume" target="_blank" href="{{ site.resume_gdrive_url }}"><span class="description">Detailed Resume</span></a></li>
             {% endif %}
 
+            {% if site.short_resume_gdrive_url %}
+            <li><a class="fa fa-2x fa-file" title="Short Resume" target="_blank" href="{{ site.short_resume_gdrive_url }}"><span class="description">Short Resume</span></a></li>
+            {% endif %}
+            
             {% if site.instagram_username %}
             <li><a class="fa fa-2x fa-instagram" target="_blank" href="https://instagram.com/{{ site.instagram_username }}"><span class="description">Instagram</span></a></li>
             {% endif %}
